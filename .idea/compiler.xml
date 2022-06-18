@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurikaService" />
+        <module name="CommentService" />
+        <module name="UserService" />
+        <module name="PostService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CommentService" target="17" />
+      <module name="EurikaService" target="17" />
+      <module name="PostService" target="17" />
+      <module name="SecurityService" target="17" />
+      <module name="UserService" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CommentService" options="-parameters" />
+      <module name="EurikaService" options="-parameters" />
+      <module name="PostService" options="-parameters" />
+      <module name="SecurityService" options="-parameters" />
+      <module name="UserService" options="-parameters" />
+    </option>
+  </component>
+</project>

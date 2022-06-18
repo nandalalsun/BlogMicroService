@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BlogProject.iml" filepath="$PROJECT_DIR$/BlogProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommentService/CommentService.iml" filepath="$PROJECT_DIR$/CommentService/CommentService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurikaServiice/EurikaService.iml" filepath="$PROJECT_DIR$/EurikaServiice/EurikaService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PostService/PostService.iml" filepath="$PROJECT_DIR$/PostService/PostService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserService/UserService.iml" filepath="$PROJECT_DIR$/UserService/UserService.iml" />
+    </modules>
+  </component>
+</project>
